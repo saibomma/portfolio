@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { CountiesProvider } from "./context/CountiesContext"
+
 
 import './App.css';
 import Navbar from './Navbar';
@@ -26,7 +26,7 @@ export default function App(){
         
        
 
-        <CountiesProvider>
+       
          <div className = "App">
             <Router>
             <Navbar/>
@@ -53,7 +53,7 @@ export default function App(){
             
             
          </div>
-         </CountiesProvider>
+         
          
       );
    }

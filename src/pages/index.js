@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Cover from "./images/beach.jpg"
 import Html from "./images/html.png"
 import Css from "./images/css3.png"
@@ -13,6 +13,11 @@ import springboot from "./backendimages/spring-boot.png"
 
 
 const Home = () => {
+  const[isToggled, setIsToggled] = useState(false);
+  const handleToggle = () => {
+    setIsToggled(!isToggled);
+  };
+  
     const coverStyle = {
         position: "relative",
         backgroundImage: `url(${Cover})`,
@@ -33,7 +38,7 @@ const Home = () => {
         zIndex: 1, // Ensure the text appears above the image
       };
       const buttonStyle = {
-        backgroundColor: '#4CAF50', // Green background color
+        backgroundColor: isToggled ? 'green' : 'red',
         color: 'white', // White text color
         padding: '20px 30px', // Padding around the text
         border: 'none', // Remove default button border
@@ -58,7 +63,7 @@ const Home = () => {
         I use HTML, CSS, JavaScript, and React to build user-friendly interfaces, and Python, SQL, and AWS to manage data and server-side logic."</p>
 
         </div>
-        <button style={buttonStyle} onClick={handleButtonClick}> VIEW MY RESUME</button>
+        <button style={buttonStyle} onClick={ () => {handleButtonClick(); handleToggle();}}> {isToggled ? 'ON' : 'OFF'} - VIEW MY RESUME</button>
         <div className="skills-container">
         <div className="frontend">
           <h style={{color:'black',fontWeight: 'bold', fontSize: '30px',fontFamily: 'Times New Roman' }}>Front End Development</h>
