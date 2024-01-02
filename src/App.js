@@ -1,25 +1,59 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import { CountiesProvider } from "./context/CountiesContext"
+
 import './App.css';
+import Navbar from './Navbar';
+import Footer from './footer';
+import Home from './pages';
+import About from './pages/about'
+import Resume from './pages/resume'
+import Project from './pages/project'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+
+
+export default function App(){
+   
+  
+
+   
+
+   
+   
+      return (
+        
+       
+
+        <CountiesProvider>
+         <div className = "App">
+            <Router>
+            <Navbar/>
+            
+           
+      
+    
+            
+            
+            
+            <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/project" element={<Project />} />
+            
+            </Routes>
+            <Footer/>
+            </Router>
+           
+            
+           
+          
+            
+            
+         </div>
+         </CountiesProvider>
+         
+      );
+   }

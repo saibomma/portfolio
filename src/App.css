@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +10,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +19,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -36,3 +33,328 @@
     transform: rotate(360deg);
   }
 }
+.title{
+  padding-top: 1%;
+  background-color: skyblue;
+  height: 50px;
+  align-items:center;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.container {
+  margin: 10% auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.footer{
+  background-color: black;
+  padding: 20px;
+  margin-top: 0%;
+  display: flex;
+}
+.home{
+  display: flex;
+  font-style: normal;
+  
+  
+  align-items: center;
+  font-size:xx-large;
+  color: aliceblue;
+  
+ 
+  
+  }
+  .About{
+    display: flex;
+    color: aliceblue;
+    font-size: large;
+   
+  }
+  
+
+.resume{
+  display: flex;
+  color: aliceblue;
+  font-size: large;
+  
+  
+  
+}
+.linkedin-logo{
+  margin-left:5%;
+}
+.github-logo{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.footer-content{
+  color: aliceblue;
+  margin-left: 20%;
+  margin-right: 15%;
+}
+.footer-images{
+  margin:1%;
+}
+.profile{
+ 
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10px;
+  align-items: center;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.profile p {
+  font-size: 16px;
+  line-height: 1.5;
+  color:whitesmoke;
+  text-align: left;
+}
+.profile img{
+  
+  height: auto;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 60%;
+  
+}
+.intro-template {
+  background-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -15%;
+  padding: 50px;
+  margin-bottom: 5%;
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 5%;
+ }
+.intro-template img {
+  max-width: 50%; /* Set a maximum width for the image */
+  height: auto ; 
+  margin:15px;
+  border-radius: 10%;
+}
+
+.intro-template h3 {
+ 
+ color: white;
+ margin-top: -350px;
+ margin-left: 350px;
+}
+.intro-template h2 {
+ 
+  color: white;
+  margin-top: -250px;
+ margin-left: 340px;
+}
+.intro-template h1{
+  color: white;
+  margin-top: -310px;
+ margin-left: 330px;
+}
+.intro-template p{
+  color: white;
+  margin-top: -200px;
+  margin-left: 340px;
+  text-align: left;
+}
+.intro-template p1{
+  color: white;
+  margin-top: -200px;
+  margin-left: 340px;
+  text-align: left;
+}
+.logo{
+  margin-left: 340px;
+  margin-top: -40px;
+  display: flex;
+  
+}
+.logo1{
+  margin-left: 340px;
+  margin-top: -10px;
+  display: flex;
+}
+.logo2{
+  margin-left: 340px;
+  margin-top: 3px;
+  display: flex;
+}
+.logo3{
+  margin-left: 340px;
+  margin-top: 0px;
+  display: flex;
+}
+.text1{
+  color: aliceblue;
+  margin-top: 25px;
+ }
+ .text2{
+  color: aliceblue;
+  margin-top: 25px;
+  
+ }
+.text3{
+  color: aliceblue;
+  margin-top: 25px;
+}
+.text4{
+  color: aliceblue;
+  margin-top: 25px;
+}
+.Button {
+  display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+}
+.project1{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin: 50px;
+}
+.project2{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: green;
+  display: inline-block;
+  margin: 50px;
+}
+.project3{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: pink;
+  display: inline-block;
+  margin: 50px;
+  
+}
+.project4{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: grey;
+  display: inline-block;
+  margin: 50px;
+  
+}
+.project5{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: yellowgreen;
+  display: inline-block;
+  margin: 50px;
+  
+}
+.project6{
+  height: 300px;
+  width: 300px;
+  border-color: black;
+  border-radius: 5%;
+  background-color: blueviolet;
+  display: inline-block;
+  margin: 50px;
+  
+}
+.projects-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+.projects-container1 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.frontend{
+  height:300px;
+  width:300px;
+  border-color: black;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  
+
+}
+.backend{
+  height:300px;
+  width:300px;
+  border-color: black;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-left: 150px;
+
+}
+.skills-container{
+  display: flex;
+  margin-left: 350px;
+ 
+
+}
+.homehead{
+  height:100px;
+  width:1000px;
+  border-color: black;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+.experience-template1{
+  height: 350px;
+  width: 80%;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+
+}
+.experience-template2{
+  height: 350px;
+  width: 80%;
+  background-color: grey;
+  border-radius: 30px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+
+}
+.experience-template1 img{
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.experience-template2 img{
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.amazon{
+  padding-left: 100px;
+  text-align: left;
+}
+.anteros{
+  padding-left: 100px;
+  text-align: left;
+}
+
+
+
