@@ -1,9 +1,11 @@
 import { FaBars } from "react-icons/fa";
-import { NavLink as Link } from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 import styled from "styled-components";
 
 export const Nav = styled.nav`
+
     background: #ffb3ff;
+    position: fixed;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -12,9 +14,10 @@ export const Nav = styled.nav`
 `;
  
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(ScrollLink)`
     color: #808080;
     display: flex;
+    
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;

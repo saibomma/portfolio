@@ -10,7 +10,7 @@ export default function resume(){
     return(
         <>
         
-        <h1>MY EXPERIENCE</h1>
+        
         <div className="experience-template1">
         <img src={anteros} height={150} width={150} alt="anteros logo"/>
         <div className="anteros">

@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
-
+import { Element } from 'react-scroll';
 import './App.css';
 import Navbar from './Navbar';
 import Footer from './footer';
@@ -38,10 +36,25 @@ export default function App(){
             
             
             <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/project" element={<Project />} />
+            <Route 
+            exact path="/" 
+            element={<>
+             <Element name="home">
+                <Home />
+              </Element>
+              <Element name="about">
+                <About />
+              </Element>
+              <Element name="project">
+                <Project />
+              </Element>
+              <Element name="resume">
+                <Resume />
+              </Element>
+              
+           </>
+            }
+            />
             
             </Routes>
             <Footer/>
