@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Cover from "./images/beach.jpg"
 import Html from "./images/html.png"
 import Css from "./images/css3.png"
@@ -11,17 +11,15 @@ import springboot from "./backendimages/spring-boot.png"
 import profile from "./images/profile.jpg"
 import Github from "./images/github.png"
 import Linkedinimage from "./images/linkedinimage.jpg"
+import Medium from "./images/medium.png"
 import Calendly from "./images/calendly.png"
 import Docker from "./backendimages/docker.png"
+import Bootstrap from "./images/bootstrap.png"
 
 
 
 
 const Home = () => {
-  const[isToggled, setIsToggled] = useState(false);
-  const handleToggle = () => {
-    setIsToggled(!isToggled);
-  };
   
     const coverStyle = {
         position: "relative",
@@ -43,7 +41,7 @@ const Home = () => {
         zIndex: 1, // Ensure the text appears above the image
       };
       const buttonStyle = {
-        backgroundColor: isToggled ? 'green' : 'red',
+        backgroundColor: 'green',
         color: 'white', // White text color
         padding: '20px 30px', // Padding around the text
         border: 'none', // Remove default button border
@@ -53,10 +51,14 @@ const Home = () => {
         marginBottom: '20px',
         
       };
+      
+        const resumeUrl = 'https://github.com/saibomma/resume/raw/main/Resume.pdf';
+      
+        const handleButtonClick = () => {
+          window.open(resumeUrl, '_blank');
+        };
     
-      const handleButtonClick = () => {
-        console.log('hi');
-      };
+      
     return (
       <>
         <div style={coverStyle}>
@@ -82,20 +84,28 @@ const Home = () => {
         <img src={Calendly} height={40} width={40} alt="calendly logo"/>
         </a>
         </div>
+        <div className="medium-logo1">
+        <a href="https://medium.com/@saikiranreddy.b1995/about">
+        <img src={Medium} height={40} width={40} alt="Medium logo"/>
+        </a>
+        </div>
         </div>
         </p>
         <img src={profile} alt="laptop pic" height={300} width={300} style={{borderRadius:'300px'}}/>
 
         </div>
-        <button style={buttonStyle} onClick={ () => {handleButtonClick(); handleToggle();}}> {isToggled ? 'ON' : 'OFF'} - VIEW MY RESUME</button>
+        <button style={buttonStyle} onClick={handleButtonClick}> VIEW MY RESUME</button>
         <div className="skills-container">
         <div className="frontend">
           <h style={{color:'black',fontWeight: 'bold', fontSize: '30px',fontFamily: 'Times New Roman' }}>Front End Development</h>
+          <div className="frontend-grid">
           
-          <img src={Html} alt="html logo" height={50} width={50} style={{margin:'50px'}}/>
-          <img src={Css} alt="css logo" height={50} width={50} style={{margin:'20px'}}/>
-          <img src={javascript} alt="js logo" height={50} width={50} style={{margin:'10px'}}/>
-          <img src={react} alt="react logo" height={50} width={50} style={{margin:'20px'}}/>
+          <img src={Html} alt="html logo" height={50} width={50} style={{margin:'10px'}}/>
+          <img src={Css} alt="css logo" height={50} width={50} style={{margin:'10px'}}/>
+          <img src={javascript} alt="js logo" height={50} width={50} style={{margin:'5px'}}/>
+          <img src={react} alt="react logo" height={50} width={50} style={{margin:'5px'}}/>
+          <img src={Bootstrap} alt="bootstrap logo" height={50} width={50} style={{margin:'5px'}}/>
+          </div>
           
         </div>
         <div className="backend">

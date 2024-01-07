@@ -33,7 +33,7 @@ export default function About(){
             
             
             <img src={Profile} height={300} width={300} alt="profile pic" />
-            <h3>HELLO EVERYBODY, I AM</h3>
+            <h3>HELLO EVERYONE, I AM</h3>
             <h1>SAI KIRAN BOMMA</h1>
             <h2>SOFTWARE ENGINEER</h2>
             <p>"Distinguished Software Engineer with 5+ years of experience renowned for crafting and implementing resilient web and e-commerce applications, with expertise in Front-End  development, API Design, Database Management, Java, CI/CD, and AWS Cloud Services"</p>
