@@ -219,7 +219,7 @@
 	text-align: center;
 }
 .project1{
-  height: 400px;
+  height: 380px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
@@ -227,10 +227,10 @@
   display: inline-block;
   margin: 70px;
   padding: 15px;
-  text-align: left;
+  
 }
 .project2{
-  height: 400px;
+  height: 380px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
@@ -238,46 +238,50 @@
   display: inline-block;
   margin: 70px;
   padding: 15px;
-  text-align: left;
+  
 }
 .project3{
-  height: 400px;
+  height: 380px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
   background-color: pink;
   display: inline-block;
   margin: 70px;
+  padding: 15px;
   
 }
 .project4{
-  height: 300px;
+  height: 350px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
   background-color: grey;
   display: inline-block;
   margin: 70px;
+  padding: 15px;
   
 }
 .project5{
-  height: 300px;
+  height: 350px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
   background-color: yellowgreen;
   display: inline-block;
   margin: 70px;
+  padding: 15px;
   
 }
 .project6{
-  height: 300px;
+  height: 350px;
   width: 300px;
   border-color: black;
   border-radius: 5%;
   background-color: blueviolet;
   display: inline-block;
   margin: 70px;
+  padding: 15px;
   
 }
 .projects-container {
@@ -292,13 +296,23 @@
   margin-left: 50px;
 }
 .frontend{
-  height:300px;
-  width:300px;
-  border-color: black;
+  max-height:300px;
+  max-width:300px;
   background-color: antiquewhite;
   border-radius: 15px;
   
+  display: flex;
+  flex-direction: column;
+ 
   
+  
+
+}
+.frontend-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
 
 }
 .backend{
@@ -391,6 +405,11 @@
   margin-right: 40px;
 }
 .calendly-logo1{
+  
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.medium-logo1{
   
   margin-top: 20px;
 }
