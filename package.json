@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/saibomma/MyPortfolio",
-  "name": "myportfolio",
+  "homepage": "https://github.com/saibomma/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
