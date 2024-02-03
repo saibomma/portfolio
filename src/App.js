@@ -26,7 +26,7 @@ export default function App(){
 
        
          <div className = "App">
-            <Router>
+            <Router basename="/portfolio">
             <Navbar/>
             
            
