@@ -17,7 +17,7 @@ export default function projects(){
         window.open('https://github.com/saibomma/graphql-api-from-scratch', '_blank');
       };
       const openGitHubLink5= () => {
-        window.open('https://github.com/saibomma/MyPortfolio', '_blank');
+        window.open('https://saibomma.github.io/portfolio/', '_blank');
       };
     const buttonStyle = {
         padding: '20px 30px',
