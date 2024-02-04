@@ -70,7 +70,7 @@ const Home = () => {
         I use HTML, CSS, JavaScript, and React to build user-friendly interfaces, and Python, SQL, and AWS to manage data and server-side logic."
         <div className="logo1-container">
         <div className="linkedin-logo1">
-        <a href="https://www.linkedin.com/in/bomma/">
+        <a href="https://www.linkedin.com/in/saikb1/">
         <img src={Linkedinimage} height={40} width={40} alt="linkedin logo"/>
         </a>
         </div>
