@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+ 
+ 
+  
+
+ 
+  
 }
 
 
@@ -300,6 +305,8 @@
   max-width:300px;
   background-color: antiquewhite;
   border-radius: 15px;
+  gap: 10x 30px;
+ 
   
   display: flex;
   flex-direction: column;
@@ -318,15 +325,20 @@
 .backend{
   height:300px;
   width:300px;
+  gap: 10x 30px;
+ 
   border-color: black;
   background-color: antiquewhite;
   border-radius: 15px;
   margin-left: 150px;
+  
+ 
 
 }
+
 .skills-container{
   display: flex;
-  margin-left: 350px;
+  margin-left: 300px;
  
 
 }
@@ -415,6 +427,122 @@
 }
 .logo1-container{
   display: flex;
+}
+/* .blog-container{
+  color: white;
+  display: flex;
+  
+  border: 5px solid gold;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 50vh;
+  
+  
+} */
+/* .blog-container > *{
+  flex-basis: 200px;
+  
+}
+.red {background-color: red;}
+.orange{background-color: orange;}
+.yellow{background-color: yellow;}
+.green{background-color: green;}
+.blue{background-color: blue;}
+.indigo{background-color: indigo;}
+.purple{background-color: purple;}
+.blog-container p{
+  background-color: darkseagreen;
+  
+} */
+
+.experience__container{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 2rem;
+}
+
+.experience__container > div{
+
+  background: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.experience__container > div:hover{
+
+  background: lightgreen;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience__container > div h3{
+
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+
+.experience__content{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  row-gap: 2rem;
+}
+
+.experience__details{
+
+  display: flex;
+  gap: 2rem;
+}
+
+.experience__details-icon{
+
+  margin-top: 25px;
+  color: black;
+}
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+  .experience__container{
+
+      grid-template-columns: 1fr;
+  }
+
+  .experience__container > div{
+
+      width: 50%;
+      padding: 2rem;
+      margin: 0 auto;
+  }
+
+  .experience__content{
+
+      padding: 1rem;
+  }
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+  .experience__container{
+
+      gap: 1rem;
+  }
+
+  .experience__container > div{
+
+      width: 100%;
+      padding: 2rem 1rem;
+  }
 }
 
 

@@ -96,30 +96,142 @@ const Home = () => {
         </div>
         <button style={buttonStyle} onClick={handleButtonClick}> VIEW MY RESUME</button>
         <div className="skills-container">
-        <div className="frontend">
-          <h style={{color:'black',fontWeight: 'bold', fontSize: '30px',fontFamily: 'Times New Roman' }}>Front End Development</h>
-          <div className="frontend-grid">
+
+      
+
+      <div className="experience__container">
+
+        <div className="experience__frontend">
+            <h3>Frontend Development</h3>
+
+            <div className="experience__content">
+
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>HTML</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>CSS</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>JavaScript</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Bootstrap</h4>
+                  <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>ReactJs</h4>
+                  <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>GraphQL</h4>
+                  <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+            </div>
+        </div>
+     {/* End of frontend part */}
+
+        <div className="experience__backend">
+            <h3>Backend Development</h3>
+            <div className="experience__content">
+
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Spring Boot</h4>
+                  <small className='text-light'>Beginner</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>MySQL</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>AWS</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Java</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>ExpressJS</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>MongoDB</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+            </div>
+        </div>
+      </div>
+      </div>
+    
+  
+
+        {/* <div className="skills-container">
+        <div className="frontend"> */}
+          {/* <h style={{color:'black',fontWeight: 'bold', fontSize: '30px',fontFamily: 'Times New Roman' }}>Front End Development</h> */}
+          {/* <div className="frontend-grid">
           
           <img src={Html} alt="html logo" height={50} width={50} style={{margin:'10px'}}/>
           <img src={Css} alt="css logo" height={50} width={50} style={{margin:'10px'}}/>
           <img src={javascript} alt="js logo" height={50} width={50} style={{margin:'5px'}}/>
           <img src={react} alt="react logo" height={50} width={50} style={{margin:'5px'}}/>
           <img src={Bootstrap} alt="bootstrap logo" height={50} width={50} style={{margin:'5px'}}/>
-          </div>
+          </div> */}
           
-        </div>
+        {/* </div>
         <div className="backend">
-          
-          <h style={{color:'black',fontWeight: 'bold', fontSize: '30px', fontFamily: 'Times New Roman' }}>Back End Development</h>
-          <img src={sql} alt="sql logo" height={50} width={50} style={{margin:'50px'}}/>
-          <img src={postgre} alt="postgre logo" height={50} width={50} style={{margin:'50px'}}/>
-          <img src={java} alt="java logo" height={50} width={50} style={{margin:'20px'}}/>
-          <img src={springboot} alt="springboot logo" height={50} width={50} style={{margin:'20px'}}/>
-          <img src={Docker} alt="docker logo" height={50} width={50} style={{margin:'20px'}}/>
+           */}
+          {/* <h style={{color:'black',fontWeight: 'bold', fontSize: '30px', fontFamily: 'Times New Roman' }}>Back End Development</h> */}
+          {/* <div className="backend-grid">
+          <img src={sql} alt="sql logo" height={50} width={50} style={{margin:'10px'}}/>
+          <img src={postgre} alt="postgre logo" height={50} width={50} style={{margin:'10px'}}/>
+          <img src={java} alt="java logo" height={50} width={50} style={{margin:'5px'}}/>
+          <img src={springboot} alt="springboot logo" height={50} width={50} style={{margin:'5px'}}/>
+          <img src={Docker} alt="docker logo" height={50} width={50} style={{margin:'5px'}}/>
+          </div> */}
           
 
-        </div>
-        </div>
+        {/* </div>
+        </div> */}
 
         
         </div>

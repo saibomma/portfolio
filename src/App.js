@@ -29,6 +29,7 @@ export default function App(){
             <Router basename="/portfolio">
             <Navbar/>
             
+            
            
       
     
@@ -36,8 +37,13 @@ export default function App(){
             
             
             <Routes>
+           
+              
+            
             <Route 
             exact path="/" 
+            
+            
             element={<>
              <Element name="home">
                 <Home />
