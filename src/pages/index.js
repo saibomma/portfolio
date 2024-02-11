@@ -15,6 +15,7 @@ import Medium from "./images/medium.png"
 import Calendly from "./images/calendly.png"
 import Docker from "./backendimages/docker.png"
 import Bootstrap from "./images/bootstrap.png"
+import {BsFillPatchCheckFill} from 'react-icons/bs'
 
 
 
