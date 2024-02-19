@@ -24,7 +24,7 @@ export default function About(){
       
       
      
-      background: 'skyblue', 
+      background: '#222021', 
       
     }}>
         </div>

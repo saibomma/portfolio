@@ -6,6 +6,7 @@ import Home from "./images/home.png"
 
 
 
+
 const NavbarContainer = styled.div`
  
   
@@ -42,6 +43,9 @@ export default function Navbar(){
 
         <NavLink to="project" spy={true} smooth={true}  duration={300}>
         <h1 className="About">PROJECTS</h1>
+        </NavLink>
+        <NavLink to="blog" smooth={true} duration={500}>
+        <h1 className="About">BLOG</h1>
         </NavLink>
 
       <NavLink to="resume" spy={true} smooth={true}  duration={500}>

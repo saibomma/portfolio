@@ -9,6 +9,8 @@
 
 
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,6 +31,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -132,7 +135,7 @@
   
 }
 .intro-template {
-  background-color: black;
+  background-color: #BDB7AB;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: -15%;
@@ -228,7 +231,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: antiquewhite;
+  background-color: white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -239,7 +242,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: green;
+  background-color:white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -250,7 +253,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: pink;
+  background-color: white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -261,7 +264,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: grey;
+  background-color: white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -272,7 +275,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: yellowgreen;
+  background-color: white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -283,7 +286,7 @@
   width: 300px;
   border-color: black;
   border-radius: 5%;
-  background-color: blueviolet;
+  background-color: white;
   display: inline-block;
   margin: 70px;
   padding: 15px;
@@ -293,6 +296,7 @@
   display: flex;
   margin-bottom: 50px;
   margin-left: 50px;
+  
   
 }
 .projects-container1 {
@@ -366,7 +370,7 @@
 .experience-template1{
   height: 300px;
   width: 80%;
-  background-color: lightseagreen;
+  background-color: #E5C563;
   border-radius: 30px;
   margin-top: 100px;
   margin-left: 140px;
@@ -374,11 +378,12 @@
   padding: 10px;
   display: flex;
 
+
 }
 .experience-template2{
   height: 350px;
   width: 80%;
-  background-color: grey;
+  background-color: #D6CFC7;
   border-radius: 30px;
   margin-left: 140px;
   margin-bottom: 50px;
@@ -428,33 +433,27 @@
 .logo1-container{
   display: flex;
 }
-/* .blog-container{
+.blog-container{
   color: white;
   display: flex;
   
-  border: 5px solid gold;
+  border: 5px ;
   margin-top: 10%;
   flex-wrap: wrap;
   align-content: center;
   height: 50vh;
   
   
-} */
-/* .blog-container > *{
+} 
+.blog-container > *{
   flex-basis: 200px;
   
 }
-.red {background-color: red;}
-.orange{background-color: orange;}
-.yellow{background-color: yellow;}
-.green{background-color: green;}
-.blue{background-color: blue;}
-.indigo{background-color: indigo;}
-.purple{background-color: purple;}
+
 .blog-container p{
   background-color: darkseagreen;
   
-} */
+}
 
 .experience__container{
 
@@ -474,7 +473,7 @@
 
 .experience__container > div:hover{
 
-  background: lightgreen;
+ 
   border-color: var(--color-primary-variant);
   cursor: default;
 }
@@ -544,6 +543,12 @@
       padding: 2rem 1rem;
   }
 }
+.flex-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
 
 
 

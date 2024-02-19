@@ -15,7 +15,7 @@ export default function resume(){
         <img src={anteros} height={150} width={150} alt="anteros logo"/>
         <div className="anteros">
             <h1>ROLE: SOFTWARE ENGINEER</h1>
-            <p style={{color:'black'}}>As a dedicated Software Engineer at Anteros Bio, I leverage my extensive expertise in both front-end and back-end development to design and implement dynamic, responsive, and secure applications for the biotechnology industry. My technical toolkit includes HTML, CSS, JavaScript, and React for creating intuitive user interfaces, while Java, SQL, and AWS enable me to manage data and server-side logic with precision.</p>
+            <p style={{color:'white'}}>As a dedicated Software Engineer at Anteros Bio, I leverage my extensive expertise in both front-end and back-end development to design and implement dynamic, responsive, and secure applications for the biotechnology industry. My technical toolkit includes HTML, CSS, JavaScript, and React for creating intuitive user interfaces, while Java, SQL, and AWS enable me to manage data and server-side logic with precision.</p>
             <p style={{color:'white'}}>🔒 Developed a robust authentication system, utilizing AWS Cognito pools to generate and store cookies, and implementing secure access token verification for enhanced application security.</p>
             <p style={{color:'white'}}>🧪 Ensured codebase quality and reliability through comprehensive Jest unit testing, employing effective function mocking and test scenario validation across diverse React files.</p>
             </div>

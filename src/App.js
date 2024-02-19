@@ -1,12 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Element } from 'react-scroll';
+
 import './App.css';
+
 import Navbar from './Navbar';
 import Footer from './footer';
 import Home from './pages';
 import About from './pages/about'
 import Resume from './pages/resume'
 import Project from './pages/project'
+import Blogs from './pages/blog'
 
 
 
@@ -57,10 +60,15 @@ export default function App(){
               <Element name="resume">
                 <Resume />
               </Element>
+              <Element name="blog">
+                <Blogs/>
+              </Element>
               
            </>
             }
+              
             />
+            
             
             </Routes>
             <Footer/>

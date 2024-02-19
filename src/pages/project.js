@@ -36,7 +36,7 @@ export default function projects(){
 
     return(
         <>
-        <div style={{backgroundColor:'lightgreen', height:'150vh'}}>
+        <div style={{backgroundColor:'#9A7B4F', height:'150vh'}}>
         <div className="projects-container">
         <div className="project1">
             <h1>POMODORO APPICATION</h1>

@@ -24,7 +24,9 @@ const Home = () => {
   
     const coverStyle = {
         position: "relative",
-        backgroundImage: `url(${Cover})`,
+        backgroundColor:"#544C4A",
+        
+        // backgroundImage: `url(${Cover})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         color: "black",
@@ -65,7 +67,7 @@ const Home = () => {
         <div style={coverStyle}>
         <div style={textOverlayStyle}>
        
-        <h1 style={{marginBottom:'30px', marginTop:'80px',marginLeft:'160px',fontSize: '5em' }}>SAI KIRAN BOMMA</h1>
+        <h1 style={{marginBottom:'30px', marginTop:'80px',marginLeft:'160px',fontSize: '5em',color:'white'}}>SAI KIRAN BOMMA</h1>
         <div className="homehead">
         <p style={{color:'black',marginRight:'40px',marginLeft:'20px',marginTop:'50px'}}>"As a Software Engineer at Anteros Bio, I apply my extensive knowledge and skills in front-end and back-end development to create dynamic, responsive, and secure applications for the biotechnology industry. 
         I use HTML, CSS, JavaScript, and React to build user-friendly interfaces, and Python, SQL, and AWS to manage data and server-side logic."
